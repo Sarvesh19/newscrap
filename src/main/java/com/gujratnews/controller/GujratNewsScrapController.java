@@ -65,6 +65,8 @@ public class GujratNewsScrapController {
 			
 			String temp = java.time.LocalDate.now().toString();  
 			
+			System.out.println(temp);
+			
 			String Date = temp.split("-")[0]+temp.split("-")[1]+temp.split("-")[2];
 
 			String uri = "http://www.enewspapr.com/OutSourcingDatanew.php?operation=getThumbnailDetails&selectedIssueId="
